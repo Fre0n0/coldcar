@@ -1,0 +1,128 @@
+.world-image-container{
+    background: url(/images/world-coldcar.png);
+}
+
+.world-images img{
+    max-width: 80%;
+    height: auto;
+    margin-left: 37%;
+}
+
+.world-images1 img{
+    max-width: 80%;
+    height: auto;
+    margin-left: 37%;
+}
+
+.enviroment-container{
+    background-color: rgba(197, 205, 213, 0.5);
+}
+
+.enviroment-images-bc{
+    height: auto;
+    width: 50%;
+    /* background-color: rgb(218, 218, 220); */
+    border: 5px rgb(93, 120, 141) solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviroment-images-bc img{
+    height: auto;
+    width: 100%;
+}
+
+.lalala{
+    content: '';
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: lightslategray;
+    margin-top: -12.5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    align-items: center;
+    border: 1px solid lightslategray;
+    border-radius: 50%;
+    transition: all 1s;
+    font-size: smaller;
+}
+
+.circle:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(27, 109, 161);
+    text-align: center;
+}
+
+.time-line-text{
+    height: 65px;
+    width: 80% !important;
+    background-color: rgb(148, 163, 178);
+    color: white;
+    text-align: center;
+    border: 3px  black;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 768px) {
+    .circle{
+        height: 50px;
+        width: 50px;
+        margin-top: -18.5px;
+    }
+
+    .world-images b {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .world-images1 b p{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .world-images img{
+        margin-left: 22%;
+    }
+
+    .world-images1 img{
+        margin-left: 35%;
+    }
+    
+    .enviroment-images-bc{
+        width: 80%;
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    .world-images img{
+        margin-left: 33%;
+    }
+
+    .world-images1 img{
+        margin-left: 40%;
+    }
+
+    .enviroment-images-bc img{
+        height: auto;
+        width: 100%;
+    }
+
+    /* .circle{
+        height: 50px;
+        width: 50px;
+    } */
+
+    .time-line-text{
+        font-size: large;
+    }
+}

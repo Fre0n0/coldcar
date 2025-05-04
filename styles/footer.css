@@ -1,0 +1,18 @@
+.footer-background{
+    background: url(/images/bg-pattern-coldcar.png) !important;
+    background-color: none !important;
+    width: 100%;
+    height: auto;
+}
+
+.color-white1{
+    color: white;
+}
+
+.color-white{
+    text-decoration: none;
+}
+
+.color-white:hover{
+    text-decoration: underline;
+}

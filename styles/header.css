@@ -1,0 +1,57 @@
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-toggler-icon:hover{
+    display: block;
+}
+
+.header {
+    background-color: rgb(228, 228, 228);
+    font-size: large;
+}
+
+.header__icon{
+    text-decoration: none;
+    color: black;
+}
+
+.header-text-size{
+    font-size: 10px;
+}
+
+@media (min-width: 768px){
+    .header-text-size{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-margin{
+        margin-right: 1em;
+    }
+
+    .icon-text-right{
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-margin{
+        margin-right: 3em;
+    }
+
+    .icon-text-right{
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .img-margin{
+        margin-right: 8em;
+    }
+
+    .icon-text-right{
+        margin-right: 50px;
+    }
+}

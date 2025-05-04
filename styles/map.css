@@ -1,0 +1,13 @@
+#map{
+    height: 550px;
+    width: 100%;
+}
+
+.map-button{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}

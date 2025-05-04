@@ -1,0 +1,5 @@
+.accordion{
+    --bs-accordion-active-bg: lightslategray !important;
+    --bs-accordion-color: lightslategray !important;
+    --bs-accordion-active-color: rgb(214, 235, 246) !important;
+}

@@ -1,0 +1,37 @@
+.country-selector{
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 320px;
+    color: white;
+    background-color: rgba(119, 136, 153, 0.6);
+}
+
+.country{
+    height: 520px;
+    width: 80% !important;
+    margin: 20px;
+    border: 1px solid rgba(114, 159, 205, 0.5);
+    font-size: large;
+}
+
+@media (min-width: 768px) {
+    .country-selector{
+        margin-left: 15px;
+    }
+    .country{
+        width: 43% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .country{
+        width: 27% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .country{
+        height: 470px;
+    }
+}

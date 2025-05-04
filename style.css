@@ -1,0 +1,360 @@
+.slider-container{
+    background-color: rgba(128, 128, 128, 0.7);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: white !important;
+}
+
+.slide-1{
+    background: url(/images/carousel1.jpg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.slide-2{
+    background: url(/images/carousel2.jpeg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.slide-3{
+    background: url(/images/carousel3.jpg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.slide-4{
+    background: url(/images/carousel4.jpeg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.slide-5{
+    background: url(/images/carousel5.jpeg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.slide-6{
+    background: url(/images/carousel6.jpeg) center/cover no-repeat;
+    vertical-align: middle;
+    width: 100%;
+    height: 475.8125px;
+}
+
+.carousel-caption{
+    right: 0% !important;
+    left: 0% !important;
+    bottom: 0px !important;
+}
+
+.carousel-slide-button{
+    background-color: rgb(193, 191, 191);
+    color: white;
+    width: 160px;
+    height: 35px;
+    border: 3px;
+    border-radius: 7px;
+    transition: all 0.7s;
+}
+
+.carousel-slide-button:hover{
+    background-color: rgb(85, 181, 241);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    opacity: 0.9 !important;
+}
+
+.roboto-slab-carousel{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.image-container1{
+    background: url(/images/bg-home-coldcar.png) center/cover no-repeat;
+}
+
+.cold-factory-cards{
+    background: url(/images/bg-pattern-coldcar.png);
+    height: 290px !important;
+    width: 270px !important;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 1s;
+}
+
+.cold-factory-cards:hover{
+    opacity: 1;
+}
+
+.cold-factory-cards-border{
+    text-decoration: none;
+    height: 250px;
+    width: 230px;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+.cold-factory-cards b{
+    font-size:x-large;
+}
+
+.cold-factory-cards p{
+    font-size: large;
+}
+
+.text-decoration-none{
+    text-decoration: none !important;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-gray{
+    color: lightslategray;
+}
+
+.color-black{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.bigger-paragraph{
+    font-size: 15px;
+}
+
+.cold-factory-cards-text{
+    margin-top: 50px;
+    color: rgb(83, 166, 215);
+}
+
+.image-container2{
+    background: url(/images/bg-pattern-coldcar.png);
+}
+
+.cold-factory-icons{
+    background-color: rgba(128, 128, 128, 0);
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+
+.cold-factory-icons:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    text-decoration: none !important;
+}
+
+.cold-factory-icons i{
+    font-size: 70px;
+}
+
+.cold-factory-icons p{
+    font-size: 25px;
+    text-decoration: none !important;
+}
+
+.carousel-caption b{
+    font-size: 20px;
+}
+
+.carousel-caption p{
+    font-size: 13px;
+}
+
+.technogolia-image{
+    background: url(/images/tecnologia.png);
+    height: 90%;
+    width: 275px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.qualita-image{
+    background: url(/images/qualita-e-ambiente.png);
+    height: 90%;
+    width: 275px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery-image{
+    background: url(/images/gallery-storica.png);
+    height: 90%;
+    width: 275px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.three-images-border{
+    height: 240px;
+    width: 230px;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+.three-images-border-inv{
+    background: url(/images/img-pattern.png);
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.three-images-border-inv:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.line{
+    background: url(/images/bg-pattern-coldcar.png);
+    background-color: gray;
+    width: 80%;
+    height: 10px;
+}
+
+.line-1{
+    background-color: lightslategray;
+    width: 100%;
+    height: 7px;
+    opacity: 0.5;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+}
+
+
+.grid-item img{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-item-wtf{
+    padding: 40px;
+}
+
+@media (min-width: 768px) {
+    .roboto-slab-carousel{
+        font-size: 16px;
+    }
+
+    .cold-factory-cards-text{
+        margin-top: 70px;
+        color: rgb(83, 166, 215);
+    }
+
+    .technogolia-image{
+        width: 84%;
+    }
+    
+    .qualita-image{
+        width: 84%;
+    }
+    
+    .gallery-image{
+        width: 40%;
+    } 
+
+    .grid-item-wtf{
+        padding: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .technogolia-image{
+        width: 96%;
+    }
+    
+    .qualita-image{
+        width: 96%;
+    }
+    
+    .gallery-image{
+        width: 96%;
+    }
+
+    .grid-item img{
+        max-width: 100%;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2,1fr);
+        justify-content: center;
+    }
+
+    .grid-item-wtf{
+        width: 130% !important;
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cold-factory-cards-text{
+        margin-top: 230px;
+        color: rgb(83, 166, 215);
+    }
+
+    .padding-zero{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .padding-zero-right{
+        padding-right: 0px !important;
+    }
+    
+    .padding-zero-left{
+        padding-left: 0px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .technogolia-image{
+        width: 79%;
+    }
+    
+    .qualita-image{
+        width: 79%;
+    }
+    
+    .gallery-image{
+        width: 79%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .technogolia-image{
+        width: 66%;
+    }
+    
+    .qualita-image{
+        width: 66%;
+    }
+    
+    .gallery-image{
+        width: 66%;
+    }
+}
